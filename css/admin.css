@@ -4,6 +4,7 @@ body {
     
     font-size: 15px;
     line-height: 1.6;
+    min-height: 100vh;
 }
 
 *,
@@ -16,3 +17,126 @@ h1, h2, h3, h4, h5, h6
 {
     margin: 0;
 }
+
+h1,
+h2 {
+    color: #fff;
+}
+
+
+/* Header 
+.header {
+    padding-top: 30px;
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: #005697;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+*/
+
+
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.nav__btnUnLogin {
+    width: 84px;
+    height: 42px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 10px;
+    transition: 0.5s;
+    display: inline-block;
+    padding: 9px 15px;
+    text-decoration: none;
+}
+
+.nav__btnUnLogin:hover {
+    background: #fff;
+    color: #005697;
+}
+
+
+
+/*Side-Menu*/
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+
+.side-menu{
+    position: fixed;
+    width: 20vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #005697;
+}
+
+.side-menu .brand-name {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-menu li {
+    font-size: 16px;
+    padding: 10px 40px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.side-menu li:hover {
+    background: #fff;
+    color: #005697;
+}
+
+
+/*Container*/
+.container {
+    position: absolute;
+    right: 0;
+    width: 80vw;
+    height: 100vh;
+}
+
+.container .header {
+    position: fixed;
+    top: 0;
+    /*right: 0;*/
+    width: 80vw;
+    height: 10vh;
+    background: #005697;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
